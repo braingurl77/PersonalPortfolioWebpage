@@ -1,0 +1,77 @@
+echo "# PersonalPortfolioWebpage" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/braingurl77/PersonalPortfolioWebpage.git
+git push -u origin main
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+   <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <main id="main">
+        <h1 id="title">Roman Polanski</h1>
+        <p>Holocaust survivor, Polish and French director, actor, producer and criminal.</p>
+        <figure id="img-div">
+            <img id="image" src=https://upload.wikimedia.org/wikipedia/commons/2/25/Roman_Pola%C5%84ski.jpg  alt="Roman Polanski">
+           <figcaption id="img-caption" >Roman Polanski in 2007</figcaption>
+        </figure>
+        <section id="tribute-info">
+            <h3 id="headline">Here's a time line of Polanski's life:</h3>
+            <ul>
+    <li>
+                    <p></p><strong>1933</strong> - Raymond Roman Thierry Liebling, Born in Paris, France August 18,1933</p>
+                </li>
+                <li>
+                    <p></p><strong>1937</strong> - Moved to Krakow, Poland</p>
+                </li>
+                <li>
+                    <p></p><strong>1939</strong> - Nazi Germany invaded Poland to begin World War II and the family was trapped in the Krakow Ghetto</p>
+                </li>
+                <li>
+                    <p></p><strong>1939-55</strong> - he spent his formative years in foster homes surviving the Holocaust by adopting a false identity and concealing his Jewish heritage</p>
+                </li>
+                <li>
+                    <p></p><strong>1962</strong> - 
+                    Polanski's first feature-length film, Knife in the Water (1962), was made in Poland and was nominated for the United States Academy Award for Best Foreign Language Film</p>
+                </li>
+                <li>
+                    <p></p><strong>1968</strong> - 
+                  In 1968, he moved to the United States and cemented his status in the film industry by directing the horror film Rosemary's Baby
+                </li>
+                <li>
+                    <p></p><strong>1969</strong> - In 1969, Polanski's pregnant wife, actress Sharon Tate, was murdered with four friends by members of the Manson Family.</p>
+                </li>
+                <li>
+                    <p></p><strong>1977</strong> - Polanski was arrested and charged with sexual abuse against a 13-year-old girl. As a result of a plea bargain, he pleaded guilty to the lesser offence of unlawful sex with a minor</p>
+                </li>
+                <li>
+                    <p></p><strong>1978</strong> - Upon learning that the judge planned to reject his plea deal and impose a prison term instead of probation, Polanski fled to Paris and has since been a fugitive from the U.S. criminal justice system. After fleeing to Europe, Polanski continued directing. His other critically acclaimed films include Tess (1979), The Pianist (2002), The Ghost Writer (2010), Venus in Fur (2013), and An Officer and a Spy (2019)
+
+</p>
+                </li>
+                <li>
+                    <p></p><strong>1981</strong> - In 1981, Polanski directed and co-starred (as Mozart) in a stage production of Peter Shaffer's play Amadeus, first in Warsaw, then in Paris.[65][66] The play was again directed by Polanski, in Milan, in 1999</p>
+                </li>
+                <li>
+                    <p></p><strong>2002</strong> - In 2001, Polanski filmed The Pianist, an adaptation of the World War II autobiography of the same name by Polish-Jewish musician Władysław Szpilman. Szpilman's experiences as a persecuted Jew in Poland during World War II were reminiscent of those of Polanski and his family. While Szpilman and Polanski escaped the concentration camps, their families did not, eventually perishing</p>
+                </li>
+                <li>
+                    <p></p><strong>2010</strong> - The Ghost Writer, a thriller focusing on a ghostwriter working on the memoirs of a character based loosely on former British prime minister Tony Blair, swept the European Film Awards in 2010, winning six awards, including best movie, director, actor and screenplay</p>
+                </li>
+                <li>
+                    <p></p><strong>2018</strong> - In May 2018, the Academy of Motion Picture Arts and Sciences voted to expel Polanski from its membership.[144] The same year, his wife Emmanuelle Seigner rejected the invitation to join the Academy, denouncing the "hypocrisy" of a group that expelled Polanski</p>
+                </li>
+                <li>
+                    <p></p><strong>2023</strong> - 
+Polanski's next film, The Palace, began filming in February 2022 in Gstaad, Switzerland.[127] The film stars Mickey Rourke, Fanny Ardant, and Oliver Masucci,[128] and is a black comedy about the guests at a Swiss luxury hotel on New Year's Eve 1999. Polanski co-wrote the screenplay with fellow Polish director Jerzy Skolimowski, who also co-wrote Polanski's first feature, Knife in the Water, in 1962. RAI Cinema and Eliseo Entertainment produced the film.[129][130][131][132] The film was set to be released theatrically in Italy by 01 Distribution on 6 April 2023</p>
+            </ul>
+            <a id="tribute-link" href="https://en.wikipedia.org/wiki/Roman_Polanski" target="_blank">Wikipedia entry</a>
